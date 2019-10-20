@@ -1,0 +1,28 @@
+.jumbotron > h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron > p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+#options {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+a:focus {
+    text-decoration: none;
+}
+button{
+    background:none;
+    border:none;
+}
