@@ -1,14 +1,15 @@
+/* FireBase Section */
+
+/* ******END******* */
+
 /* Current Location */
 window.onload = function () {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(markPosition);
-    } else { 
-        x.innerHTML = "Geolocation is not supported by this browser.";
     }
 }
 function markPosition(position) {
     const currentLocation = position.coords.longitude + "," + position.coords.latitude
-    // const currentLocation = [position.coords.longitude, position.coords.lattitude];
 
     /* MapBox API to fetch location of smart bins*/
 
